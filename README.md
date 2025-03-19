@@ -49,23 +49,28 @@ By integrating **both approaches**, we achieve:
 ---
 
 ## 📌 How It Works: Flowchart
+
 ```mermaid
 graph TD;
-    A[User Query] -->|Check Preloaded Knowledge| B{CAG Response Available?};
-    B -->|Yes| C[Return Cached Response];
-    B -->|No| D[Retrieve from Document Database (RAG)];
-    D --> E[Process Retrieved Content];
-    E --> F[Combine and Return Best Answer];
+    A["User Query"] -->|Check Preloaded Knowledge| B{CAG Response Available?};
+    B -- Yes --> C["Return Cached Response"];
+    B -- No --> D["Retrieve from Document Database (RAG)"];
+    D --> E["Process Retrieved Content"];
+    E --> F["Combine and Return Best Answer"];
+
 ```
 
 ### 🔄 **Step-by-Step Process**
 1️⃣ **User sends a query.**  
+
 2️⃣ **Check CAG:**
    - If the answer is found in **preloaded memory**, return it instantly.
    - If **not found**, proceed to retrieval (RAG).
+
 3️⃣ **Check RAG:**
    - Retrieve relevant documents from the **vector database**.
    - Process and combine **retrieved content**.
+     
 4️⃣ **Return the best possible answer** (CAG or RAG).
 
 ---
