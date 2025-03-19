@@ -107,8 +107,8 @@ graph TD;
 ## 🚀 Getting Started
 ### **1️⃣ Clone the Repository**
 ```bash
- git clone git@github.com:YOUR_GITHUB_USERNAME/hybrid-chatbot.git
- cd hybrid-chatbot
+ git clone git@github.com:YOUR_GITHUB_USERNAME/Hybrid-AI-Chatbot-CAG-RAG-.git
+ cd Hybrid-AI-Chatbot-CAG-RAG-
 ```
 
 ### **2️⃣ Install Dependencies**
