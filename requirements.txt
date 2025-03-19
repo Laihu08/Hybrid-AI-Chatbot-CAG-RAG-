@@ -1,0 +1,6 @@
+openai
+chromadb
+streamlit
+fastapi
+langchain
+ollama

@@ -1,0 +1,11 @@
+# Virtual Environment
+venv/
+__pycache__/
+
+# Cache & Temp Files
+*.log
+*.sqlite3
+*.db
+
+# Streamlit Cache
+.stcache/

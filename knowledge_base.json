@@ -1,0 +1,6 @@
+{
+    "What is CAG?": "Cache-Augmented Generation (CAG) is a technique where knowledge is preloaded into AI's memory for instant responses.",
+    "What is RAG?": "Retrieval-Augmented Generation (RAG) fetches relevant documents before generating an answer.",
+    "What is Hybrid AI?": "A combination of CAG and RAG to offer fast responses with real-time retrieval when needed."
+  }
+  
