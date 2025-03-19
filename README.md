@@ -55,7 +55,7 @@ graph TD;
     B -->|Yes| C[Return Cached Response];
     B -->|No| D[Retrieve from Document Database (RAG)];
     D --> E[Process Retrieved Content];
-    E --> F[Combine & Return Best Answer];
+    E --> F[Combine and Return Best Answer];
 ```
 
 ### 🔄 **Step-by-Step Process**
