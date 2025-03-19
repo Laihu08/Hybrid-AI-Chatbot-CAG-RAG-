@@ -1,7 +1,7 @@
 # Hybrid AI Chatbot (CAG + RAG)
 
 ## 🚀 Overview
-This project implements a **Hybrid AI Chatbot** that combines **Cache-Augmented Generation (CAG)** and **Retrieval-Augmented Generation (RAG)** to provide a **fast, accurate, and real-time AI-powered response system**.
+This project implements a **Hybrid AI Chatbot** that combines **Cache-Augmented Generation (CAG)** and **Retrieval-Augmented Generation (RAG)** to provide a **fast, accurate, and real-time AI-powered response system**. 
 
 ### 🔍 Why Hybrid?
 Traditional AI chatbots face **two major limitations**:
@@ -44,18 +44,18 @@ By integrating **both approaches**, we achieve:
 | 🎯 **Best For** | FAQs, predefined data | Real-time, evolving knowledge | Both static & real-time info |
 | 🏆 **Final Verdict** | ❌ Limited use | ❌ Slower & complex | ✅ Best of both worlds! |
 
-📌 **Hybrid AI ensures** **low-latency responses** while allowing **real-time updates when necessary**.
+📌 **Hybrid AI ensures** **low-latency responses** while allowing **real-time updates when necessary**. 
 
 ---
 
 ## 📌 How It Works: Flowchart
-```
-User Query ➝ Check Preloaded Knowledge (CAG)  
-          ⬇                     ⬇  
-    If Found ✅         If Not Found ❌  
-      ➝ Return Answer        ➝ Fetch from Document Database (RAG)  
-                                     ⬇  
-                          ➝ Combine and Return Answer  
+```mermaid
+graph TD;
+    A[User Query] -->|Check Preloaded Knowledge| B{CAG Response Available?};
+    B -->|Yes| C[Return Cached Response];
+    B -->|No| D[Retrieve from Document Database (RAG)];
+    D --> E[Process Retrieved Content];
+    E --> F[Combine & Return Best Answer];
 ```
 
 ### 🔄 **Step-by-Step Process**
@@ -122,7 +122,7 @@ This will launch the **web UI** where users can:
 ---
 
 ## 📌 Conclusion
-**Hybrid AI Chatbots** **solve the key challenges** of **speed, accuracy, and real-time knowledge retrieval**. This approach is perfect for **customer service, healthcare, research, and legal domains.**
+**Hybrid AI Chatbots** **solve the key challenges** of **speed, accuracy, and real-time knowledge retrieval**. This approach is perfect for **customer service, healthcare, research, and legal domains.** 
 
 📢 **Star this repo if you find it useful! 🚀**
 
