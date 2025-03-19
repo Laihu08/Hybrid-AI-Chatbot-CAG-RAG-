@@ -85,9 +85,13 @@ graph TD;
 
 ## 📌 Features
 ✅ **Hybrid Response Generation** (CAG for speed + RAG for accuracy)
+
 ✅ **Preloaded Knowledge for Fast Responses**
+
 ✅ **Document Retrieval for Up-to-Date Information**
+
 ✅ **Dynamic Response Switching** (Users can choose CAG, RAG, or Hybrid Mode)
+
 ✅ **User-Friendly Interface** (Streamlit UI)
 
 ---
@@ -121,7 +125,9 @@ streamlit run app.py
 ```
 
 This will launch the **web UI** where users can:
+
 ✅ Choose between **CAG, RAG, or Hybrid mode**  
+
 ✅ Ask questions & get **AI-powered responses**  
 
 ---
